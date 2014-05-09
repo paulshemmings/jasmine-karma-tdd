@@ -1,0 +1,20 @@
+{
+    "name": "jasmine-karma-tdd",
+    "description": "Example server and client side unit tests with Jasmine",
+    "version": "1.0.0",
+    "private": false,
+    "author": "Paul Hemmings",
+    "engines": {
+        "node": "0.10.x",
+        "npm": "1.2.x"
+    },
+    "dependencies": {
+        "xml2js": "latest",
+        "karma": "latest",
+        "karma-jasmine": "*",
+        "jasmine-jquery": "*",
+        "karma-handlebars-preprocessor": "*",
+        "jasmine-node": "*",
+        "request": "*"        
+    }
+}
