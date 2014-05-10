@@ -15,6 +15,11 @@
         "jasmine-jquery": "*",
         "karma-handlebars-preprocessor": "*",
         "jasmine-node": "*",
-        "request": "*"        
+        "request": "*",
+        "karma-coverage": "*",
+        "karma-phantomjs-launcher": "*",
+        "karma-safari-launcher": "*",
+        "karma-chrome-launcher": "*",
+        "karma-firefox-launcher": "*"
     }
 }
