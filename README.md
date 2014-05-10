@@ -15,11 +15,21 @@ To execute tests
 ----------------
 
 * all tests
-  * `./test/run_tests.sh`
+  * `cd test`
+  * `./run_tests.sh`
 * client side only
-  * `./node_modules/karma/bin/karma start ./test/karma.client.config.js`
+  * `cd test`
+  * `./../node_modules/karma/bin/karma start ./karma.client.config.js`
 * server side only
-  * `./node_modules/jasmine-node/bin/jasmine-node ./test/server/`
+  * `cd test`
+  * `./../node_modules/jasmine-node/bin/jasmine-node ./server/`
+
+To view coverage reports
+------------------------
+
+* open client coverage reports
+  * `cd test`
+  * `open client/coverage/PhantomJS\ 1.9.7\ \(Mac\ OS\ X\)/index.html`
 
 To view web site
 ----------------
