@@ -35,8 +35,15 @@ module.exports = function (karma) {
 
     ],
 
-    // list of files / patterns to load in the browser
+    preprocessors: {
+      // define which files to include in coverage reports
+      '../../public/js/*.js': 'coverage'
+    },    
 
+    coverageReporter: {
+      type : 'html',
+      dir : 'coverage/'
+    },
     // list of files to exclude
     exclude: [
 
@@ -45,7 +52,7 @@ module.exports = function (karma) {
     // use dots reporter, as travis terminal does not support escaping sequences
     // possible values: 'dots', 'progress'
     // CLI --reporters progress
-    reporters: ['progress'],
+    reporters: ['progress', 'coverage'],
 
     // web server port
     // CLI --port 9876

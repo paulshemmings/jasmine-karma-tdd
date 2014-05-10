@@ -12,6 +12,6 @@ describe("MainApp", function() {
 		spyOn(MainApp.TemplateLayer,'renderTemplate');
 		MainApp.inititalizePage();
 		expect(MainApp.TemplateLayer.renderTemplate)
-			.toHaveBeenCalledWith('front-page', 'main-container', {}, false);
+			.toHaveBeenCalledWith('front-page', '#main-container', {}, false);
 	});
 });
